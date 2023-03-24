@@ -1,0 +1,29 @@
+{
+    "name": "virajkhatavkar/cakephp-openai-php",
+    "description": "CakePHP Plugin for OpenAPiPHP client",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CakephpOpenaiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viraj Khatavkar",
+            "email": "viraj.2438@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^8.1.0",
+        "cakephp/cakephp": "^4.4.0",
+        "openai-php/client": "^0.4.1",
+        "symfony/http-client": "^6.2",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
